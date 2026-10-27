@@ -1,7 +1,5 @@
-Texting "so proud of you" is sweet. Showing up in ways that move the needle is better. 💖
+A heart emoji is nice. Showing up is better. 💖
 
-October is Women's Small Business Month, so here are 7 ways to back the entrepreneurs in your life. I'm a nurse who built a business house call by house call, and these are the things that actually helped me.
-
-Swipe through, then tag someone you're rooting for. 👇
+I built my nursing business one house call at a time, and the people who helped most weren't doing anything fancy. Here are 7 simple ways to back the entrepreneurs in your life. Swipe through, then tag someone who's building something. 👇
 
 #WomensSmallBusinessMonth #SupportSmallBusiness #EntrepreneurLife #NurseEntrepreneur #MobileIV #NurseyMercy
