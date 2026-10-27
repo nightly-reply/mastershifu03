@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nursey Mercy Carousel</title>
+<style>
+  :root {
+    --cream: #fbf4ec;
+    --ink: #1b1613;
+    --rose: #e8a7a0;
+    --accent: #ff7a6b;
+    --sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Liberation Serif", Georgia, "Times New Roman", serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #222; font-family: var(--sans); }
+
+  .slide {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    color: var(--cream);
+    background: var(--ink);
+    margin: 0 auto 40px;
+  }
+  .slide .photo {
+    position: absolute; inset: 0;
+    background-size: cover;
+    background-position: var(--pos, center);
+  }
+  .slide .shade {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(to bottom, rgba(20,14,12,.55) 0%, rgba(20,14,12,0) 22%),
+      linear-gradient(to top, rgba(20,14,12,.92) 0%, rgba(20,14,12,.72) 30%, rgba(20,14,12,0) 62%);
+  }
+
+  .banner {
+    position: absolute; top: 56px; left: 64px; right: 64px; text-align: center;
+    font-size: 25px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  }
+  .handle {
+    position: absolute; bottom: 78px; left: 0; right: 0; text-align: center;
+    font-size: 22px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; opacity: .85;
+  }
+
+  .copy { position: absolute; left: 64px; right: 64px; bottom: 150px; }
+  .num {
+    font-family: var(--serif); font-style: italic;
+    font-size: 150px; line-height: 1; color: var(--rose);
+    margin-bottom: 8px;
+  }
+  h1, h2 { font-weight: 800; letter-spacing: -.02em; }
+  h2 { font-size: 88px; line-height: 1.02; margin-bottom: 28px; }
+  h2 em, h1 em { font-family: var(--serif); font-weight: 400; font-style: italic; color: var(--rose); }
+  p { font-size: 42px; line-height: 1.3; font-weight: 500; max-width: 880px; opacity: .95; }
+
+  .cover h1 { font-size: 118px; line-height: .98; margin-bottom: 30px; }
+  .cover .kicker {
+    display: inline-block; font-size: 26px; font-weight: 700; letter-spacing: .16em;
+    text-transform: uppercase; background: var(--accent); color: var(--ink);
+    padding: 12px 22px; border-radius: 999px; margin-bottom: 28px;
+  }
+  .cover p { font-size: 40px; }
+
+  .dots {
+    position: absolute; bottom: 40px; left: 0; right: 0;
+    display: flex; justify-content: center; gap: 12px;
+  }
+  .dots i { width: 12px; height: 12px; border-radius: 50%; background: rgba(251,244,236,.35); }
+  .dots i.on { background: var(--cream); }
+
+  .end .copy { text-align: center; }
+  .end h1 { font-size: 104px; line-height: 1; margin-bottom: 30px; }
+  .end .tag {
+    display: inline-block; font-size: 44px; font-weight: 800; color: var(--ink);
+    background: var(--cream); padding: 18px 40px; border-radius: 999px; margin-bottom: 28px;
+  }
+  .end p { margin: 0 auto; font-size: 36px; }
+</style>
+</head>
+<body>
+
+<!-- 1 cover -->
+<section class="slide cover">
+  <div class="photo" style="background-image:url(assets/portrait-stethoscope.jpg); --pos:50% 20%"></div>
+  <div class="shade"></div>
+  <div class="banner">October is National Women's Small Business Month</div>
+<div class="handle">@nurseymercy</div>
+  <div class="copy">
+    <span class="kicker">Swipe →</span>
+    <h1>7 easy ways to support your <em>founder</em> friends</h1>
+    <p>From a nurse who built her business one house call at a time.</p>
+  </div>
+  <div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <div class="photo" style="background-image:url(assets/couch-iv.jpg); --pos:50% 35%"></div>
+  <div class="shade"></div>
+  <div class="banner">October is National Women's Small Business Month</div>
+<div class="handle">@nurseymercy</div>
+  <div class="copy">
+    <div class="num">01</div>
+    <h2>Show up <em>in person</em></h2>
+    <p>Come to the launch, the pop-up, the tiny event. A full room changes how a founder feels all week.</p>
+  </div>
+  <div class="dots"><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <div class="photo" style="background-image:url(assets/elevator-grey.jpg); --pos:50% 30%"></div>
+  <div class="shade"></div>
+  <div class="banner">October is National Women's Small Business Month</div>
+<div class="handle">@nurseymercy</div>
+  <div class="copy">
+    <div class="num">02</div>
+    <h2>Tell <em>your</em> story</h2>
+    <p>Post about your own experience in your own words. A real story from a friend beats any polished ad.</p>
+  </div>
+  <div class="dots"><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <div class="photo" style="background-image:url(assets/syringe-red.jpg); --pos:50% 25%"></div>
+  <div class="shade"></div>
+  <div class="banner">October is National Women's Small Business Month</div>
+<div class="handle">@nurseymercy</div>
+  <div class="copy">
+    <div class="num">03</div>
+    <h2>Pay <em>full price</em></h2>
+    <p>Book the service without asking for the friend discount. Paying what it's worth says you believe in it.</p>
+  </div>
+  <div class="dots"><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="photo" style="background-image:url(assets/backstage.jpg); background-size:132% auto; background-repeat:no-repeat; --pos:30% 62%"></div>
+  <div class="shade"></div>
+  <div class="banner">October is National Women's Small Business Month</div>
+<div class="handle">@nurseymercy</div>
+  <div class="copy">
+    <div class="num">04</div>
+    <h2>Bring her to <em>your</em> party</h2>
+    <p>Birthday, bachelorette, team retreat, wrap party. Hire your founder friend for the room you're already hosting.</p>
+  </div>
+  <div class="dots"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <div class="photo" style="background-image:url(assets/kitchen-selfie.jpg); --pos:50% 30%"></div>
+  <div class="shade"></div>
+  <div class="banner">October is National Women's Small Business Month</div>
+<div class="handle">@nurseymercy</div>
+  <div class="copy">
+    <div class="num">05</div>
+    <h2>Give <em>honest</em> feedback</h2>
+    <p>Tell them what worked and what could be better. Kind, specific feedback is a gift most founders never get.</p>
+  </div>
+  <div class="dots"><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <div class="photo" style="background-image:url(assets/heart-vial.jpg); --pos:50% 30%"></div>
+  <div class="shade"></div>
+  <div class="banner">October is National Women's Small Business Month</div>
+<div class="handle">@nurseymercy</div>
+  <div class="copy">
+    <div class="num">06</div>
+    <h2>Take one thing <em>off their plate</em></h2>
+    <p>Founders never clock out. Bring lunch, run the errand, or just say, "Go home. I've got this."</p>
+  </div>
+  <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <div class="photo" style="background-image:url(assets/elevator-blue.jpg); --pos:50% 25%"></div>
+  <div class="shade"></div>
+  <div class="banner">October is National Women's Small Business Month</div>
+<div class="handle">@nurseymercy</div>
+  <div class="copy">
+    <div class="num">07</div>
+    <h2>Celebrate the <em>small</em> wins</h2>
+    <p>First client. First five-star review. First day off. Cheer loudly for all of it. Nobody else sees the grind.</p>
+  </div>
+  <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i></div>
+</section>
+
+<!-- 9 end -->
+<section class="slide end">
+  <div class="photo" style="background-image:url(assets/neon-portrait.jpg); --pos:50% 30%"></div>
+  <div class="shade"></div>
+  <div class="banner">October is National Women's Small Business Month</div>
+<div class="handle">@nurseymercy</div>
+  <div class="copy">
+    <h1>Tag the <em>founder</em> who deserves a cheer</h1>
+    <span class="tag">@ them below</span>
+    <p>Save this for later and send it to the person who needs to see it.</p>
+  </div>
+  <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i></div>
+</section>
+
+</body>
+</html>
