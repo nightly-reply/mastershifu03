@@ -1,7 +1,7 @@
-Your founder friend doesn't need another "so proud of you!!" text. There are so many other ways to show the love. 💖
+Texting "so proud of you" is sweet. Showing up in ways that move the needle is better. 💖
 
-It's National Women's Small Business Month. Swipe for 7 easy ways to support the founders in your life, then tag the one who deserves a cheer. 👇
+October is Women's Small Business Month, so here are 7 ways to back the entrepreneurs in your life. I'm a nurse who built a business house call by house call, and these are the things that actually helped me.
 
-Save this for later and send it to a friend who needs to see it.
+Swipe through, then tag someone you're rooting for. 👇
 
-#NationalWomensSmallBusinessMonth #SmallBusinessSupport #FounderLife #NurseEntrepreneur #MobileIV #NurseyMercy
+#WomensSmallBusinessMonth #SupportSmallBusiness #EntrepreneurLife #NurseEntrepreneur #MobileIV #NurseyMercy
